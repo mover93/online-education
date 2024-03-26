@@ -7,8 +7,15 @@
     <groupId>com.online.education</groupId>
     <artifactId>online-education</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>pom</packaging>
+
+    <modules>
+        <module>online-education-course</module>
+        <module>online-education-system</module>
+        <module>online-education-user</module>
+        <module>online-education-admin</module>
+        <module>online-education-portal</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
