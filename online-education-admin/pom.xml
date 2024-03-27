@@ -7,9 +7,14 @@
         <groupId>com.online.education</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
     <artifactId>online-education-admin</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>online-education-admin-controller</module>
+        <module>online-education-admin-boot</module>
+    </modules>
 
 </project>
